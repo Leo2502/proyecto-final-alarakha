@@ -1,0 +1,67 @@
+@import '../base/extends';
+@import '../base/mixins';
+
+/* Edición de footer */
+footer{
+    margin-top: 2rem;
+    padding: 0.5em 0 0.5em 0.5em;
+    @extend %fondo-principal;
+    font-size: 1rem;
+    .menu-footer{
+        @include flexbox(flex, row nowrap, space-between);
+        .menu-footer-item{
+            @include flexbox(flex, column wrap, flex-start);
+            align-content: space-between;
+            flex:1;
+            overflow: hidden;
+            font-weight: bolder;
+            .logoPP{
+                width: 25%;
+            }
+            .titulofoo{
+                margin-top: 0.8rem;
+                margin-bottom: 0.8rem;
+                font-weight: bolder;
+                text-transform:uppercase;
+                text-align: left;
+                font-size: 1.5rem;
+            }
+            ul{
+                margin: 0 0 1.25rem 1.25rem;
+                list-style: none;
+            }
+        }
+        .mfi-redes{
+            justify-content: space-between;
+            align-items:center;
+            .iconors{
+                padding: 0.6em;
+                transition: all 200ms ease-out;
+                &:hover{
+                    transform: scale(1.25);
+                }
+            }
+            .fa-map-marker-alt:hover{
+                transform: scale(1.25);
+            }
+        }
+        /* Edición de botón para subir a inicio */
+        .subir{
+            position: fixed;
+            right: 1%;
+            bottom: 1%;
+            padding: 1rem;
+            @extend %hover-general;
+            transition: all 500ms;
+            z-index: 2;
+            &:visited{
+                @extend %hover-general;
+            }
+            .fa-arrow-circle-up{
+                width: 30%;
+            }
+        }
+        /* Fin de edición de botón para subir a inicio */
+    }
+}
+/* Fin de edición de footer */

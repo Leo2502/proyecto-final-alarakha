@@ -1,0 +1,53 @@
+@import '../base/extends';
+@import '../base/mixins';
+
+/* Edición de header */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    padding: 0.5em 0 0.5em 0.5em;
+    @extend %fondo-principal;
+    .bg-leo{
+        @extend %fondo-principal;
+    }
+    .navbar{
+        font-family: $fuente-principal;
+        font-weight: bolder;
+        .logoa{
+            width: 13%;
+            &:active{
+                animation: Saltar 1s;
+            }
+        }
+            li{
+                margin:0.9rem;
+                .dropdown-menu{
+                    border-radius: 5px;
+                    border-top: none;
+                    .dropdown-item:hover{
+                        @extend %hover-general;
+                    }
+                }
+            }
+            .nav-item{
+                text-decoration: none;
+                transition: all 500ms;
+                .nav-link{
+                    @extend %link-general;
+                    &:visited{
+                        @extend %link-general;
+                    }
+                    &:active{
+                        color:white;
+                        background-color: black;
+                        transition: all 500ms;
+                    }
+                    &:hover{
+                        @extend %hover-general;
+                    }
+                }
+            } 
+    }
+}
+/* Fin de Edición de Header */

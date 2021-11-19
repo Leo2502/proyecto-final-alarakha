@@ -1,0 +1,57 @@
+@import '../base/extends';
+@import '../base/mixins';
+
+body{
+    @extend %fondo-principal;
+    font-family: $fuente-principal;
+    a{
+        text-decoration: none;
+        @extend %link-general;
+        font-weight: normal;
+        &:hover{
+            @extend %hover-general;
+            transition: all 500ms;
+        }
+    }
+}
+
+
+/*Edición en body*/
+.ventaspm{
+    @include flexbox(flex, row nowrap, center);
+    margin-bottom: 0.8rem;
+    @extend %fondo-principal;
+}
+.contactos-container{
+    @include flexbox(flex, row nowrap, center);
+    flex:1;
+    .contactos-item{
+        @include flexbox(flex, column wrap, flex-start);
+        align-items: center;
+        .formulario{
+            display: flex;
+            flex-flow: column nowrap;
+            form{
+                margin: 0.8rem;
+            }
+            .inputlabel{
+                display: flex;
+                align-self: flex-end;
+            }
+        }
+        li{
+            overflow: hidden;
+        }
+    }
+    .ci-ubicacion{
+        flex-grow: calc(2);
+        .ubicacion:hover{
+            transform: scale(1.10);
+            box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
+            -webkit-box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
+            -moz-box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
+            transition: all 500ms;
+        }
+    }
+}
+/* Fin de edición general en body */

@@ -1,0 +1,17 @@
+@import 'variables';
+
+%fondo-principal{
+    background-color: $bg-principal;
+}
+
+%hover-general{
+    color: $hover-principal;
+}
+
+%link-general{
+    color:$color-fuente-principal;
+}
+
+%margin5{
+    margin: 5px;
+}

@@ -1,0 +1,48 @@
+@import '../base/extends';
+@import '../base/mixins';
+
+/* Edición de Multimedia */
+.atencion{
+    @include flexbox(flex, row nowrap, center);
+    margin: 1rem;
+}
+/* Edición de productos */
+.producto-container{
+    @include flexbox(flex, row wrap, space-around);
+    margin: 10px;
+    .producto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20%;
+        margin: 10px;
+        img{
+            width: 100%;
+            @extend %margin5;
+        p{
+            @extend %margin5;
+        }
+        a{
+            @extend %margin5;
+        }
+            &:hover{
+                box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
+                -webkit-box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
+                -moz-box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
+                transition: all 500ms;
+            }
+        }
+    }
+}
+.productoprin img:hover{
+    box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
+    transition: all 500ms;
+}
+.producto-1p{
+    display: flex;
+    flex-direction: row;
+}
+/* Fin de edición de productos */
+/* Fin de edición de multimedia */

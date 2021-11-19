@@ -1,0 +1,46 @@
+// Edición de texto
+h1{
+    text-align: center;
+    font-family: AmaticSC-Regular;
+    font-weight: bolder;
+    font-size: 4rem;
+    background-image: url('../multimedia/images/fondo-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h2{
+    padding-top: 7rem;
+    margin: 2rem 2rem 2rem 2rem;
+    text-align: center;
+}
+.nstext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.presentacion{
+    text-align: center;
+    color:rgb(255, 168, 183);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    -webkit-text-stroke: black 0.6px;
+}
+.texto-comun{
+    text-align:justify;
+    font-weight: bold;
+    margin: 2rem auto 2rem auto;
+    width: 75%;
+}
+.copyright{
+    font-size: 0.75em;
+}
+.medios-item{
+    margin: 3rem;
+    font-weight: bold;
+}
+
+// Fin de edición de texto
