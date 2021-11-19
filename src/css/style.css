@@ -44,6 +44,10 @@ header .navbar .nav-item .nav-link:visited, header .navbar .nav-item .nav-link, 
   margin: 5px;
 }
 
+footer .menu-footer .mfi-redes .fa-map-marker-alt:hover, footer .menu-footer .mfi-redes .iconors:hover {
+  transform: scale(1.25);
+}
+
 h1 {
   text-align: center;
   font-family: AmaticSC-Regular;
@@ -108,6 +112,10 @@ header .navbar .nav-item .nav-link:visited, header .navbar .nav-item .nav-link, 
 
 .producto-container .producto img a, .producto-container .producto img p, .producto-container .producto img {
   margin: 5px;
+}
+
+footer .menu-footer .mfi-redes .fa-map-marker-alt:hover, footer .menu-footer .mfi-redes .iconors:hover {
+  transform: scale(1.25);
 }
 
 body {
@@ -183,6 +191,10 @@ header .navbar .nav-item .nav-link:visited, header .navbar .nav-item .nav-link, 
   margin: 5px;
 }
 
+footer .menu-footer .mfi-redes .fa-map-marker-alt:hover, footer .menu-footer .mfi-redes .iconors:hover {
+  transform: scale(1.25);
+}
+
 /* Edición de header */
 header {
   position: sticky;
@@ -233,6 +245,10 @@ body a, header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link:v
   margin: 5px;
 }
 
+footer .menu-footer .mfi-redes .fa-map-marker-alt:hover, footer .menu-footer .mfi-redes .iconors:hover {
+  transform: scale(1.25);
+}
+
 /* Edición de footer */
 footer {
   margin-top: 2rem;
@@ -278,12 +294,6 @@ footer .menu-footer .mfi-redes .iconors {
   padding: 0.6em;
   transition: all 200ms ease-out;
 }
-footer .menu-footer .mfi-redes .iconors:hover {
-  transform: scale(1.25);
-}
-footer .menu-footer .mfi-redes .fa-map-marker-alt:hover {
-  transform: scale(1.25);
-}
 footer .menu-footer .subir {
   position: fixed;
   right: 1%;
@@ -311,6 +321,10 @@ body a, header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link:v
 
 .producto-container .producto img a, .producto-container .producto img p, .producto-container .producto img {
   margin: 5px;
+}
+
+footer .menu-footer .mfi-redes .iconors:hover, footer .menu-footer .mfi-redes .fa-map-marker-alt:hover {
+  transform: scale(1.25);
 }
 
 /* Edición de Multimedia */

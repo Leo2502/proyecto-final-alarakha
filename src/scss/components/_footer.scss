@@ -38,11 +38,11 @@ footer{
                 padding: 0.6em;
                 transition: all 200ms ease-out;
                 &:hover{
-                    transform: scale(1.25);
+                    @extend %scale125;
                 }
             }
             .fa-map-marker-alt:hover{
-                transform: scale(1.25);
+                @extend %scale125;
             }
         }
         /* Edición de botón para subir a inicio */
