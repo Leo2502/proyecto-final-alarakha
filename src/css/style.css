@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -314,6 +315,9 @@ footer .menu-footer .menu-footer-item .titulofoo {
 footer .menu-footer .menu-footer-item ul {
   margin: 0 0 1.25rem 1.25rem;
   list-style: none;
+}
+footer .menu-footer .menu-footer-item ul li {
+  margin: 0.6em;
 }
 footer .menu-footer .mfi-redes {
   justify-content: space-between;
