@@ -8,6 +8,9 @@ footer{
     @extend %fondo-principal;
     font-size: 1rem;
     .menu-footer{
+        @media screen and (max-width:480px){
+            @include flexbox(flex, column wrap, space-around);
+        }
         @include flexbox(flex, row nowrap, space-between);
         .menu-footer-item{
             @include flexbox(flex, column wrap, flex-start);
@@ -16,6 +19,9 @@ footer{
             overflow: hidden;
             font-weight: bolder;
             .logoPP{
+                @media screen and (max-width:480px){
+                    width: 40%;
+                }
                 width: 25%;
             }
             .titulofoo{
@@ -29,6 +35,9 @@ footer{
             ul{
                 margin: 0 0 1.25rem 1.25rem;
                 list-style: none;
+                li {
+                    margin: 0.6em;
+                }
             }
         }
         .mfi-redes{

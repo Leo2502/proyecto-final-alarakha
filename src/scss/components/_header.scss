@@ -15,6 +15,9 @@ header{
         font-family: $fuente-principal;
         font-weight: bolder;
         .logoa{
+            @media screen and (max-width:480px){
+                width: 40%;
+            }
             width: 13%;
             &:active{
                 animation: Saltar 1s;
