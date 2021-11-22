@@ -8,14 +8,21 @@
 }
 /* Edición de productos */
 .producto-container{
+    @media screen and (max-width:480px){
+        @include flexbox(flex, column wrap, space-around);
+    }
     @include flexbox(flex, row wrap, space-around);
-    margin: 10px;
+    margin: 0.8em;
     .producto{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 20%;
         margin: 10px;
+        @media screen and (max-width:480px){
+            margin-left: auto;
+            width: 100%;
+        }
+        width: 20%;
         img{
             width: 100%;
             @extend %margin5;
