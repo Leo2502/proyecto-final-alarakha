@@ -33,7 +33,7 @@ footer, header .bg-leo, header, .ventaspm, body {
 }
 
 footer .menu-footer .subir:visited, footer .menu-footer .subir, header .navbar .nav-item .nav-link:hover, header .navbar li .dropdown-menu .dropdown-item:hover, body a:hover {
-  color: #f891a3;
+  color: #f891a3 !important;
 }
 
 header .navbar .nav-item .nav-link:visited, header .navbar .nav-item .nav-link, body a {
@@ -103,7 +103,7 @@ footer, header .bg-leo, header, .ventaspm, body {
 }
 
 footer .menu-footer .subir:visited, footer .menu-footer .subir, header .navbar .nav-item .nav-link:hover, header .navbar li .dropdown-menu .dropdown-item:hover, body a:hover {
-  color: #f891a3;
+  color: #f891a3 !important;
 }
 
 header .navbar .nav-item .nav-link:visited, header .navbar .nav-item .nav-link, body a {
@@ -180,7 +180,7 @@ footer, header .bg-leo, header, body, .ventaspm {
 }
 
 footer .menu-footer .subir:visited, footer .menu-footer .subir, header .navbar .nav-item .nav-link:hover, header .navbar li .dropdown-menu .dropdown-item:hover, body a:hover {
-  color: #f891a3;
+  color: #f891a3 !important;
 }
 
 header .navbar .nav-item .nav-link:visited, header .navbar .nav-item .nav-link, body a {
@@ -234,7 +234,7 @@ footer, body, .ventaspm, header, header .bg-leo {
 }
 
 footer .menu-footer .subir:visited, footer .menu-footer .subir, body a:hover, header .navbar li .dropdown-menu .dropdown-item:hover, header .navbar .nav-item .nav-link:hover {
-  color: #f891a3;
+  color: #f891a3 !important;
 }
 
 body a, header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link:visited {
@@ -312,7 +312,7 @@ body, .ventaspm, header, header .bg-leo, footer {
 }
 
 body a:hover, header .navbar li .dropdown-menu .dropdown-item:hover, header .navbar .nav-item .nav-link:hover, footer .menu-footer .subir, footer .menu-footer .subir:visited {
-  color: #f891a3;
+  color: #f891a3 !important;
 }
 
 body a, header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link:visited {
