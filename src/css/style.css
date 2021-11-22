@@ -335,6 +335,11 @@ footer .menu-footer .mfi-redes {
 footer .menu-footer .mfi-redes .iconors {
   padding: 0.6em;
 }
+@media screen and (max-width: 480px) {
+  footer .menu-footer .mfi-contacto {
+    display: none;
+  }
+}
 footer .menu-footer .subir {
   position: fixed;
   right: 1%;

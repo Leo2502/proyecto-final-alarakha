@@ -48,6 +48,11 @@ footer{
                 @extend %scale125;
             }
         }
+        .mfi-contacto{
+            @media screen and (max-width:480px){
+                display:none;
+            }
+        }
         /* Edición de botón para subir a inicio */
         .subir{
             position: fixed;
