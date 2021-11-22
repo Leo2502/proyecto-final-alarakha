@@ -19,3 +19,13 @@
 %scale125{
     transform: scale(1.25);
 }
+
+%transition-general{
+    transition: all 500ms ease-out;
+}
+
+%box-shadow-negra{
+    box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
+}

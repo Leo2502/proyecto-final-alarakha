@@ -26,19 +26,15 @@
             @extend %margin5;
         }
             &:hover{
-                box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
-                -webkit-box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
-                -moz-box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
-                transition: all 500ms;
+                @extend %box-shadow-negra;
+                @extend %transition-general;
             }
         }
     }
 }
 .productoprin img:hover{
-    box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px -1px 12px 1px rgba(0,0,0,0.75);
-    transition: all 500ms;
+    @extend %box-shadow-negra;
+    @extend %transition-general;
 }
 .producto-1p{
     display: flex;
