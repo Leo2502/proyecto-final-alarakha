@@ -23,7 +23,7 @@ body{
     @extend %fondo-principal;
 }
 .contactos-container{
-    @include flexbox(flex, row nowrap, center);
+    @include flexbox(flex, row wrap, center);
     flex:1;
     .contactos-item{
         @include flexbox(flex, column wrap, flex-start);
@@ -53,5 +53,10 @@ body{
             transition: all 500ms;
         }
     }
+}
+
+.fa-cart-arrow-down:hover{
+    @extend %scale125;
+    transition: all 500ms;
 }
 /* Fin de edición general en body */
