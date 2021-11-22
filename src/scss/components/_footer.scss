@@ -18,12 +18,6 @@ footer{
             flex:1;
             overflow: hidden;
             font-weight: bolder;
-            .logoPP{
-                @media screen and (max-width:480px){
-                    width: 40%;
-                }
-                width: 25%;
-            }
             .titulofoo{
                 margin-top: 0.8rem;
                 margin-bottom: 0.8rem;
@@ -71,6 +65,13 @@ footer{
             }
         }
         /* Fin de edición de botón para subir a inicio */
+    }
+    .logoPP{
+        @media screen and (max-width:480px){
+            width: 40%;
+            margin-top:1em;
+        }
+        width: 20%;
     }
 }
 /* Fin de edición de footer */
