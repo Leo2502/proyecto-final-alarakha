@@ -313,14 +313,6 @@ footer .menu-footer .menu-footer-item {
   overflow: hidden;
   font-weight: bolder;
 }
-footer .menu-footer .menu-footer-item .logoPP {
-  width: 25%;
-}
-@media screen and (max-width: 480px) {
-  footer .menu-footer .menu-footer-item .logoPP {
-    width: 40%;
-  }
-}
 footer .menu-footer .menu-footer-item .titulofoo {
   margin-top: 0.8rem;
   margin-bottom: 0.8rem;
@@ -352,6 +344,15 @@ footer .menu-footer .subir {
 }
 footer .menu-footer .subir .fa-arrow-circle-up {
   width: 30%;
+}
+footer .logoPP {
+  width: 20%;
+}
+@media screen and (max-width: 480px) {
+  footer .logoPP {
+    width: 40%;
+    margin-top: 1em;
+  }
 }
 
 /* Fin de edición de footer */
