@@ -54,4 +54,9 @@ body{
         }
     }
 }
+
+.fa-cart-arrow-down{
+    @extend %scale125;
+    transition: all 500ms;
+}
 /* Fin de edición general en body */
