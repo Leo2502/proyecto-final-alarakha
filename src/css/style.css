@@ -301,7 +301,7 @@ footer .menu-footer {
   footer .menu-footer {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
   }
 }
 footer .menu-footer .menu-footer-item {
