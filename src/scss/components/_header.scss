@@ -32,7 +32,7 @@ header{
             }
             .nav-item{
                 text-decoration: none;
-                transition: all 500ms;
+                @extend %transition-general;
                 .nav-link{
                     @extend %link-general;
                     &:visited{
@@ -41,7 +41,7 @@ header{
                     &:active{
                         color:white;
                         background-color: black;
-                        transition: all 500ms;
+                        @extend %transition-general;
                     }
                     &:hover{
                         @extend %hover-general;
