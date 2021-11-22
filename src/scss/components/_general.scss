@@ -55,7 +55,7 @@ body{
     }
 }
 
-.fa-cart-arrow-down{
+.fa-cart-arrow-down:hover{
     @extend %scale125;
     transition: all 500ms;
 }
