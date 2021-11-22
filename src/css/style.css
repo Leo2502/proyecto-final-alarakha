@@ -33,7 +33,7 @@ footer, header .bg-leo, header, .ventaspm, body {
 }
 
 footer .menu-footer .subir:visited, footer .menu-footer .subir, header .navbar .nav-item .nav-link:hover, header .navbar li .dropdown-menu .dropdown-item:hover, body a:hover {
-  color: #f891a3 !important;
+  color: #f891a3;
 }
 
 header .navbar .nav-item .nav-link:visited, header .navbar .nav-item .nav-link, body a {
@@ -139,7 +139,7 @@ body a:hover {
 
 .contactos-container {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: center;
   flex: 1;
 }

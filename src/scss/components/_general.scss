@@ -23,7 +23,7 @@ body{
     @extend %fondo-principal;
 }
 .contactos-container{
-    @include flexbox(flex, row nowrap, center);
+    @include flexbox(flex, row wrap, center);
     flex:1;
     .contactos-item{
         @include flexbox(flex, column wrap, flex-start);
