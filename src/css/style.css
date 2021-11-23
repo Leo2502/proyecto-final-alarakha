@@ -77,6 +77,8 @@ h2 {
   background-attachment: fixed;
   background-size: cover;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
 }
 
 .nstext {
@@ -92,13 +94,13 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   -webkit-text-stroke: black 0.6px;
 }
 
 .texto-comun {
   text-align: justify;
-  font-weight: bold;
+  font-weight: unset;
   margin: 2rem auto 2rem auto;
   width: 75%;
 }
