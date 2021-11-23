@@ -460,17 +460,23 @@ body a, header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link:v
 .producto-container .producto img {
   width: 100%;
 }
+.producto-container .producto p {
+  text-transform: uppercase;
+}
+.producto-container .producto .precio {
+  font-weight: bolder;
+}
 .producto-container .producto .lo-quiero {
   margin: 1em;
   padding: 1em;
   border: none;
-  border-radius: 5px;
+  border-radius: 2em;
   background-color: black;
 }
 .producto-container .producto .lo-quiero:hover {
   background-color: #222222;
   border: solid 1px #222222;
-  border-radius: 5px;
+  border-radius: 1.25em;
 }
 .producto-container .producto .lo-quiero a {
   color: white;
