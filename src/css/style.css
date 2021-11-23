@@ -396,7 +396,7 @@ body a, header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link:v
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  margin: 1rem;
+  margin: 0.5em;
 }
 
 /* Edición de productos */

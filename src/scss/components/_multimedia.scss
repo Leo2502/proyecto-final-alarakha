@@ -4,7 +4,7 @@
 /* Edición de Multimedia */
 .atencion{
     @include flexbox(flex, row nowrap, center);
-    margin: 1rem;
+    margin: 0.5em;
 }
 /* Edición de productos */
 .producto-container{
