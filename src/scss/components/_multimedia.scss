@@ -34,17 +34,21 @@
         }
         p{
             @extend %margin5;
+            text-transform: uppercase;
+        }
+        .precio{
+            font-weight: bolder;
         }
         .lo-quiero {
             margin: 1em;
             padding: 1em;
             border: none;
-            border-radius: 5px;
+            border-radius: 2em;
             background-color: black;
             &:hover{
                 background-color: rgb(34, 34, 34);
                 border: solid 1px rgb(34,34,34);
-                border-radius: 5px;
+                border-radius: 1.25em;
                 @extend %transition-general;
             }
             a{
