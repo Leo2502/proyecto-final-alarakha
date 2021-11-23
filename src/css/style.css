@@ -40,7 +40,7 @@ header .navbar .nav-item .nav-link:visited, header .navbar .nav-item .nav-link, 
   color: black;
 }
 
-.producto-container .producto img a, .producto-container .producto img p, .producto-container .producto img {
+.producto-container .producto img button a, .producto-container .producto img p, .producto-container .producto img {
   margin: 5px;
 }
 
@@ -120,7 +120,7 @@ header .navbar .nav-item .nav-link:visited, header .navbar .nav-item .nav-link, 
   color: black;
 }
 
-.producto-container .producto img a, .producto-container .producto img p, .producto-container .producto img {
+.producto-container .producto img button a, .producto-container .producto img p, .producto-container .producto img {
   margin: 5px;
 }
 
@@ -199,7 +199,7 @@ header .navbar .nav-item .nav-link:visited, header .navbar .nav-item .nav-link, 
   color: black;
 }
 
-.producto-container .producto img a, .producto-container .producto img p, .producto-container .producto img {
+.producto-container .producto img button a, .producto-container .producto img p, .producto-container .producto img {
   margin: 5px;
 }
 
@@ -266,7 +266,7 @@ body a, header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link:v
   color: black;
 }
 
-.producto-container .producto img a, .producto-container .producto img p, .producto-container .producto img {
+.producto-container .producto img button a, .producto-container .producto img p, .producto-container .producto img {
   margin: 5px;
 }
 
@@ -373,7 +373,7 @@ body a, header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link:v
   color: black;
 }
 
-.producto-container .producto img a, .producto-container .producto img p, .producto-container .producto img {
+.producto-container .producto img button a, .producto-container .producto img p, .producto-container .producto img {
   margin: 5px;
 }
 
@@ -403,7 +403,7 @@ body a, header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link:v
 .producto-container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin: 0.8em;
 }
 @media screen and (max-width: 480px) {
@@ -417,7 +417,8 @@ body a, header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link:v
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px;
+  margin: 0.8em;
+  padding: 0.5em;
   width: 20%;
 }
 @media screen and (max-width: 480px) {
@@ -428,6 +429,9 @@ body a, header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link:v
 }
 .producto-container .producto img {
   width: 100%;
+}
+.producto-container .producto img button {
+  margin: 1em;
 }
 .producto-1p {
   display: flex;
