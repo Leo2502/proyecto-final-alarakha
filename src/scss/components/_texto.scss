@@ -11,15 +11,19 @@ h1{
 }
 h2{
     // padding-top: 7rem;
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 2rem 0 2rem 0;
     text-align: center;
     background-image: url('../multimedia/images/fondo-1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    width: 100%;
+}
+h3{
+    margin: 2rem 2rem 2rem 2rem;
+    text-align: center;
 }
 .nstext{
     display: flex;

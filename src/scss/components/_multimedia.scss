@@ -27,20 +27,30 @@
         img{
             width: 100%;
             @extend %margin5;
-        p{
-            @extend %margin5;
-        }
-        button {
-            margin: 1em;
-            a{
-                @extend %margin5;
-            }
-        }
             &:hover{
                 @extend %box-shadow-negra;
                 @extend %transition-general;
             }
-        
+        }
+        p{
+            @extend %margin5;
+        }
+        .lo-quiero {
+            margin: 1em;
+            padding: 1em;
+            border: none;
+            border-radius: 5px;
+            background-color: black;
+            &:hover{
+                background-color: rgb(34, 34, 34);
+                border: solid 1px rgb(34,34,34);
+                border-radius: 5px;
+                @extend %transition-general;
+            }
+            a{
+                @extend %margin5;
+                color: white;
+            }
         }
     }
 }
