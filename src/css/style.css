@@ -28,8 +28,12 @@
   }
 }
 /* Fin de animaciones */
-footer, header .bg-leo, header, .ventaspm, body {
+.ventaspm, body {
   background-color: white;
+}
+
+footer, header .bg-leo, header {
+  background-color: whitesmoke;
 }
 
 footer .menu-footer .subir:visited, footer .menu-footer .subir, header .navbar .nav-item .nav-link:hover, header .navbar li .dropdown-menu .dropdown-item:hover, body a:hover {
@@ -114,8 +118,12 @@ h2 {
   font-weight: bold;
 }
 
-footer, header .bg-leo, header, .ventaspm, body {
+.ventaspm, body {
   background-color: white;
+}
+
+footer, header .bg-leo, header {
+  background-color: whitesmoke;
 }
 
 footer .menu-footer .subir:visited, footer .menu-footer .subir, header .navbar .nav-item .nav-link:hover, header .navbar li .dropdown-menu .dropdown-item:hover, body a:hover {
@@ -193,8 +201,12 @@ body a {
 }
 
 /* Fin de edición general en body */
-footer, header .bg-leo, header, body, .ventaspm {
+body, .ventaspm {
   background-color: white;
+}
+
+footer, header .bg-leo, header {
+  background-color: whitesmoke;
 }
 
 footer .menu-footer .subir:visited, footer .menu-footer .subir, header .navbar .nav-item .nav-link:hover, header .navbar li .dropdown-menu .dropdown-item:hover, body a:hover {
@@ -260,8 +272,12 @@ header .navbar .nav-item .nav-link:active {
   background-color: black;
 }
 /* Fin de Edición de Header */
-footer, body, .ventaspm, header, header .bg-leo {
+body, .ventaspm {
   background-color: white;
+}
+
+footer, header, header .bg-leo {
+  background-color: whitesmoke;
 }
 
 footer .menu-footer .subir:visited, footer .menu-footer .subir, body a:hover, header .navbar li .dropdown-menu .dropdown-item:hover, header .navbar .nav-item .nav-link:hover {
@@ -367,8 +383,12 @@ footer .logoPP {
 }
 
 /* Fin de edición de footer */
-body, .ventaspm, header, header .bg-leo, footer {
+body, .ventaspm {
   background-color: white;
+}
+
+header, header .bg-leo, footer {
+  background-color: whitesmoke;
 }
 
 body a:hover, header .navbar li .dropdown-menu .dropdown-item:hover, header .navbar .nav-item .nav-link:hover, footer .menu-footer .subir, footer .menu-footer .subir:visited {
