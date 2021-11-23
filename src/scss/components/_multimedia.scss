@@ -4,20 +4,21 @@
 /* Edición de Multimedia */
 .atencion{
     @include flexbox(flex, row nowrap, center);
-    margin: 1rem;
+    margin: 0.5em;
 }
 /* Edición de productos */
 .producto-container{
     @media screen and (max-width:480px){
         @include flexbox(flex, column wrap, space-around);
     }
-    @include flexbox(flex, row wrap, space-around);
+    @include flexbox(flex, row wrap, center);
     margin: 0.8em;
     .producto{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 10px;
+        margin: 0.8em;
+        padding: 0.5em;
         @media screen and (max-width:480px){
             margin-left: auto;
             width: 100%;
@@ -26,15 +27,29 @@
         img{
             width: 100%;
             @extend %margin5;
-        p{
-            @extend %margin5;
-        }
-        a{
-            @extend %margin5;
-        }
             &:hover{
                 @extend %box-shadow-negra;
                 @extend %transition-general;
+            }
+        }
+        p{
+            @extend %margin5;
+        }
+        .lo-quiero {
+            margin: 1em;
+            padding: 1em;
+            border: none;
+            border-radius: 5px;
+            background-color: black;
+            &:hover{
+                background-color: rgb(34, 34, 34);
+                border: solid 1px rgb(34,34,34);
+                border-radius: 5px;
+                @extend %transition-general;
+            }
+            a{
+                @extend %margin5;
+                color: white;
             }
         }
     }

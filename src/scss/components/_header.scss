@@ -7,9 +7,9 @@ header{
     top: 0;
     z-index: 2;
     padding: 0.5em 0 0.5em 0.5em;
-    @extend %fondo-principal;
+    @extend %fondo-hf;
     .bg-leo{
-        @extend %fondo-principal;
+        @extend %fondo-hf;
     }
     .navbar{
         font-family: $fuente-principal;

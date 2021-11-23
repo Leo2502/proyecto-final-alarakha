@@ -10,7 +10,18 @@ h1{
     background-size: cover;
 }
 h2{
-    padding-top: 7rem;
+    // padding-top: 7rem;
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    background-image: url('../multimedia/images/fondo-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+}
+h3{
     margin: 2rem 2rem 2rem 2rem;
     text-align: center;
 }
@@ -26,12 +37,12 @@ h2{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     -webkit-text-stroke: black 0.6px;
 }
 .texto-comun{
     text-align:justify;
-    font-weight: bold;
+    font-weight:unset;
     margin: 2rem auto 2rem auto;
     width: 75%;
 }
@@ -40,7 +51,6 @@ h2{
 }
 .medios-item{
     margin: 3rem;
-    font-weight: bold;
 }
 
 // Fin de edición de texto
