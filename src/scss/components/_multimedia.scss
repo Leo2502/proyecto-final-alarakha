@@ -75,9 +75,11 @@
     @extend %box-shadow-negra;
     @extend %transition-general;
 }
-.producto-1p{
-    display: flex;
-    flex-direction: row;
+.foto-bio{
+    @media screen and (max-width:480px){
+        width: 50%;
+    }
+    width: 25%;
 }
 /* Fin de edición de productos */
 /* Fin de edición de multimedia */

@@ -499,9 +499,13 @@ body a, header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link:v
   color: white;
 }
 
-.producto-1p {
-  display: flex;
-  flex-direction: row;
+.foto-bio {
+  width: 25%;
+}
+@media screen and (max-width: 480px) {
+  .foto-bio {
+    width: 50%;
+  }
 }
 
 /* Fin de edición de productos */
