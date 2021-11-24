@@ -26,6 +26,7 @@ header{
             li{
                 margin:0.9rem;
                 .dropdown-menu{
+                    @extend %fondo-hf;
                     border-radius: 5px;
                     border-top: none;
                     .dropdown-item:hover{

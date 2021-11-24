@@ -32,7 +32,7 @@
   background-color: white;
 }
 
-footer, header .bg-leo, header {
+footer, header .navbar li .dropdown-menu, header .bg-leo, header {
   background-color: whitesmoke;
 }
 
@@ -126,7 +126,7 @@ h3 {
   background-color: white;
 }
 
-footer, header .bg-leo, header {
+footer, header .navbar li .dropdown-menu, header .bg-leo, header {
   background-color: whitesmoke;
 }
 
@@ -209,7 +209,7 @@ body, .ventaspm {
   background-color: white;
 }
 
-footer, header .bg-leo, header {
+footer, header .navbar li .dropdown-menu, header .bg-leo, header {
   background-color: whitesmoke;
 }
 
@@ -280,7 +280,7 @@ body, .ventaspm {
   background-color: white;
 }
 
-footer, header, header .bg-leo {
+footer, header, header .bg-leo, header .navbar li .dropdown-menu {
   background-color: whitesmoke;
 }
 
@@ -391,7 +391,7 @@ body, .ventaspm {
   background-color: white;
 }
 
-header, header .bg-leo, footer {
+header, header .bg-leo, header .navbar li .dropdown-menu, footer {
   background-color: whitesmoke;
 }
 
