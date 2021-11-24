@@ -424,9 +424,26 @@ body a, header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link:v
 /* Edición de Multimedia */
 .atencion {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column wrap;
   justify-content: center;
+  align-items: center;
   margin: 0.5em;
+}
+.atencion img {
+  width: 30%;
+}
+@media screen and (max-width: 480px) {
+  .atencion img {
+    width: 75%;
+  }
+}
+.atencion p {
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .atencion p {
+    font-size: 0.8em;
+  }
 }
 
 /* Edición de productos */
