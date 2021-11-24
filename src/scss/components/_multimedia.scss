@@ -3,8 +3,21 @@
 
 /* Edición de Multimedia */
 .atencion{
-    @include flexbox(flex, row nowrap, center);
+    @include flexbox(flex, column wrap, center);
+    align-items: center;
     margin: 0.5em;
+    img{
+        @media screen and (max-width:480px){
+            width: 75%;
+        }
+        width: 30%;
+    }
+    p{
+        @media screen and (max-width:480px){
+            font-size: 0.8em;
+        }
+        text-align: center;
+    }
 }
 /* Edición de productos */
 .producto-container{
@@ -62,9 +75,11 @@
     @extend %box-shadow-negra;
     @extend %transition-general;
 }
-.producto-1p{
-    display: flex;
-    flex-direction: row;
+.foto-bio{
+    @media screen and (max-width:480px){
+        width: 50%;
+    }
+    width: 25%;
 }
 /* Fin de edición de productos */
 /* Fin de edición de multimedia */

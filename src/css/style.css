@@ -32,7 +32,7 @@
   background-color: white;
 }
 
-footer, header .bg-leo, header {
+footer, header .navbar li .dropdown-menu, header .bg-leo, header {
   background-color: whitesmoke;
 }
 
@@ -126,7 +126,7 @@ h3 {
   background-color: white;
 }
 
-footer, header .bg-leo, header {
+footer, header .navbar li .dropdown-menu, header .bg-leo, header {
   background-color: whitesmoke;
 }
 
@@ -209,7 +209,7 @@ body, .ventaspm {
   background-color: white;
 }
 
-footer, header .bg-leo, header {
+footer, header .navbar li .dropdown-menu, header .bg-leo, header {
   background-color: whitesmoke;
 }
 
@@ -280,7 +280,7 @@ body, .ventaspm {
   background-color: white;
 }
 
-footer, header, header .bg-leo {
+footer, header, header .bg-leo, header .navbar li .dropdown-menu {
   background-color: whitesmoke;
 }
 
@@ -391,7 +391,7 @@ body, .ventaspm {
   background-color: white;
 }
 
-header, header .bg-leo, footer {
+header, header .bg-leo, header .navbar li .dropdown-menu, footer {
   background-color: whitesmoke;
 }
 
@@ -424,9 +424,26 @@ body a, header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link:v
 /* Edición de Multimedia */
 .atencion {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column wrap;
   justify-content: center;
+  align-items: center;
   margin: 0.5em;
+}
+.atencion img {
+  width: 30%;
+}
+@media screen and (max-width: 480px) {
+  .atencion img {
+    width: 75%;
+  }
+}
+.atencion p {
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .atencion p {
+    font-size: 0.8em;
+  }
 }
 
 /* Edición de productos */
@@ -482,9 +499,13 @@ body a, header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link:v
   color: white;
 }
 
-.producto-1p {
-  display: flex;
-  flex-direction: row;
+.foto-bio {
+  width: 25%;
+}
+@media screen and (max-width: 480px) {
+  .foto-bio {
+    width: 50%;
+  }
 }
 
 /* Fin de edición de productos */
