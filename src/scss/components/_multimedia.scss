@@ -1,6 +1,3 @@
-@import '../base/extends';
-@import '../base/mixins';
-
 /* Edición de Multimedia */
 .atencion{
     @include flexbox(flex, column wrap, center);
