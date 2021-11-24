@@ -122,40 +122,6 @@ h3 {
   margin: 3rem;
 }
 
-.ventaspm, body {
-  background-color: white;
-}
-
-footer, header .navbar li .dropdown-menu, header .bg-leo, header {
-  background-color: whitesmoke;
-}
-
-footer .menu-footer .subir:visited, footer .menu-footer .subir, header .navbar .nav-item .nav-link:hover, header .navbar li .dropdown-menu .dropdown-item:hover, body a:hover {
-  color: #f891a3 !important;
-}
-
-header .navbar .nav-item .nav-link:visited, header .navbar .nav-item .nav-link, body a {
-  color: black;
-}
-
-.producto-container .producto .lo-quiero a, .producto-container .producto p, .producto-container .producto img {
-  margin: 5px;
-}
-
-footer .menu-footer .mfi-redes .fa-map-marker-alt:hover, footer .menu-footer .mfi-redes .iconors:hover, .fa-cart-arrow-down:hover {
-  transform: scale(1.25);
-}
-
-.productoprin img:hover, .producto-container .producto .lo-quiero:hover, .producto-container .producto img:hover, footer .menu-footer .subir, footer .menu-footer .mfi-redes .iconors, header .navbar .nav-item .nav-link:active, header .navbar .nav-item, .fa-cart-arrow-down:hover, .contactos-container .ci-ubicacion .ubicacion:hover, body a:hover {
-  transition: all 500ms ease-out;
-}
-
-.productoprin img:hover, .producto-container .producto img:hover, .contactos-container .ci-ubicacion .ubicacion:hover {
-  box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-}
-
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -205,40 +171,6 @@ body a {
 }
 
 /* Fin de edición general en body */
-body, .ventaspm {
-  background-color: white;
-}
-
-footer, header .navbar li .dropdown-menu, header .bg-leo, header {
-  background-color: whitesmoke;
-}
-
-footer .menu-footer .subir:visited, footer .menu-footer .subir, header .navbar .nav-item .nav-link:hover, header .navbar li .dropdown-menu .dropdown-item:hover, body a:hover {
-  color: #f891a3 !important;
-}
-
-header .navbar .nav-item .nav-link:visited, header .navbar .nav-item .nav-link, body a {
-  color: black;
-}
-
-.producto-container .producto .lo-quiero a, .producto-container .producto p, .producto-container .producto img {
-  margin: 5px;
-}
-
-footer .menu-footer .mfi-redes .fa-map-marker-alt:hover, footer .menu-footer .mfi-redes .iconors:hover, .fa-cart-arrow-down:hover {
-  transform: scale(1.25);
-}
-
-.productoprin img:hover, .producto-container .producto .lo-quiero:hover, .producto-container .producto img:hover, footer .menu-footer .subir, footer .menu-footer .mfi-redes .iconors, header .navbar .nav-item .nav-link:active, header .navbar .nav-item, body a:hover, .contactos-container .ci-ubicacion .ubicacion:hover, .fa-cart-arrow-down:hover {
-  transition: all 500ms ease-out;
-}
-
-.productoprin img:hover, .producto-container .producto img:hover, .contactos-container .ci-ubicacion .ubicacion:hover {
-  box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-}
-
 /* Edición de header */
 header {
   position: sticky;
@@ -276,40 +208,6 @@ header .navbar .nav-item .nav-link:active {
   background-color: black;
 }
 /* Fin de Edición de Header */
-body, .ventaspm {
-  background-color: white;
-}
-
-footer, header, header .bg-leo, header .navbar li .dropdown-menu {
-  background-color: whitesmoke;
-}
-
-footer .menu-footer .subir:visited, footer .menu-footer .subir, body a:hover, header .navbar li .dropdown-menu .dropdown-item:hover, header .navbar .nav-item .nav-link:hover {
-  color: #f891a3 !important;
-}
-
-body a, header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link:visited {
-  color: black;
-}
-
-.producto-container .producto .lo-quiero a, .producto-container .producto p, .producto-container .producto img {
-  margin: 5px;
-}
-
-footer .menu-footer .mfi-redes .fa-map-marker-alt:hover, footer .menu-footer .mfi-redes .iconors:hover, .fa-cart-arrow-down:hover {
-  transform: scale(1.25);
-}
-
-.productoprin img:hover, .producto-container .producto .lo-quiero:hover, .producto-container .producto img:hover, footer .menu-footer .subir, footer .menu-footer .mfi-redes .iconors, body a:hover, .contactos-container .ci-ubicacion .ubicacion:hover, .fa-cart-arrow-down:hover, header .navbar .nav-item, header .navbar .nav-item .nav-link:active {
-  transition: all 500ms ease-out;
-}
-
-.productoprin img:hover, .producto-container .producto img:hover, .contactos-container .ci-ubicacion .ubicacion:hover {
-  box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-}
-
 /* Edición de footer */
 footer {
   margin-top: 2rem;
@@ -387,40 +285,6 @@ footer .logoPP {
 }
 
 /* Fin de edición de footer */
-body, .ventaspm {
-  background-color: white;
-}
-
-header, header .bg-leo, header .navbar li .dropdown-menu, footer {
-  background-color: whitesmoke;
-}
-
-body a:hover, header .navbar li .dropdown-menu .dropdown-item:hover, header .navbar .nav-item .nav-link:hover, footer .menu-footer .subir, footer .menu-footer .subir:visited {
-  color: #f891a3 !important;
-}
-
-body a, header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link:visited {
-  color: black;
-}
-
-.producto-container .producto .lo-quiero a, .producto-container .producto p, .producto-container .producto img {
-  margin: 5px;
-}
-
-.fa-cart-arrow-down:hover, footer .menu-footer .mfi-redes .iconors:hover, footer .menu-footer .mfi-redes .fa-map-marker-alt:hover {
-  transform: scale(1.25);
-}
-
-.productoprin img:hover, .producto-container .producto .lo-quiero:hover, .producto-container .producto img:hover, body a:hover, .contactos-container .ci-ubicacion .ubicacion:hover, .fa-cart-arrow-down:hover, header .navbar .nav-item, header .navbar .nav-item .nav-link:active, footer .menu-footer .mfi-redes .iconors, footer .menu-footer .subir {
-  transition: all 500ms ease-out;
-}
-
-.productoprin img:hover, .producto-container .producto img:hover, .contactos-container .ci-ubicacion .ubicacion:hover {
-  box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-}
-
 /* Edición de Multimedia */
 .atencion {
   display: flex;
