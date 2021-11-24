@@ -346,6 +346,7 @@ footer .logoPP {
 }
 .producto-container .producto .precio {
   font-weight: bolder;
+  color: #f891a3;
 }
 .producto-container .producto .lo-quiero {
   margin: 1em;
