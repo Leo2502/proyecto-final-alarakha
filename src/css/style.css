@@ -180,6 +180,7 @@ body a {
   transform: scale(1.1);
 }
 
+/*Arreglo de anclaje de enlaces respecto al header sticky*/
 .ancla::before {
   display: block;
   content: " ";
