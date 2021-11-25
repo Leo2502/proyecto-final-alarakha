@@ -54,4 +54,12 @@ body{
     @extend %scale125;
     @extend %transition-general;
 }
+
+.ancla::before{
+    display: block;
+    content: " ";
+    margin-top: -5.5em;
+    height: 5.5em;
+    visibility: hidden;
+}
 /* Fin de edición general en body */
