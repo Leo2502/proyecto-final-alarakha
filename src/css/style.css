@@ -371,11 +371,11 @@ footer .logoPP {
   padding: 1em;
   border: none;
   border-radius: 2em;
-  background-color: black;
+  background-color: white;
 }
 .producto-container .producto .lo-quiero:hover {
   background-color: #222222;
-  border: solid 1px #222222;
+  border: solid 1px white;
   border-radius: 1.25em;
 }
 .producto-container .producto .lo-quiero a {
