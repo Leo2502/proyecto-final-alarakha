@@ -53,9 +53,9 @@
         .lo-quiero {
             margin: 1em;
             padding: 1em;
-            border: none;
+            border: solid 1px white;
             border-radius: 2em;
-            background-color: white;
+            background-color: black;
             &:hover{
                 background-color: rgb(34, 34, 34);
                 border: solid 1px white;

@@ -370,9 +370,9 @@ footer .logoPP {
 .producto-container .producto .lo-quiero {
   margin: 1em;
   padding: 1em;
-  border: none;
+  border: solid 1px white;
   border-radius: 2em;
-  background-color: white;
+  background-color: black;
 }
 .producto-container .producto .lo-quiero:hover {
   background-color: #222222;
