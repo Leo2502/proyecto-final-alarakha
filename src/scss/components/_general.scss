@@ -55,6 +55,7 @@ body{
     @extend %transition-general;
 }
 
+/*Arreglo de anclaje de enlaces respecto al header sticky*/
 .ancla::before{
     display: block;
     content: " ";

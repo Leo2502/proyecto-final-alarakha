@@ -180,6 +180,7 @@ body a {
   transform: scale(1.1);
 }
 
+/*Arreglo de anclaje de enlaces respecto al header sticky*/
 .ancla::before {
   display: block;
   content: " ";
@@ -369,13 +370,13 @@ footer .logoPP {
 .producto-container .producto .lo-quiero {
   margin: 1em;
   padding: 1em;
-  border: none;
+  border: solid 1px white;
   border-radius: 2em;
   background-color: black;
 }
 .producto-container .producto .lo-quiero:hover {
   background-color: #222222;
-  border: solid 1px #222222;
+  border: solid 1px white;
   border-radius: 1.25em;
 }
 .producto-container .producto .lo-quiero a {
