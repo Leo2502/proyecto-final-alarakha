@@ -175,6 +175,14 @@ body a {
   transform: scale(1.1);
 }
 
+.ancla::before {
+  display: block;
+  content: " ";
+  margin-top: -5.5em;
+  height: 5.5em;
+  visibility: hidden;
+}
+
 /* Fin de edición general en body */
 /* Edición de header */
 header {
