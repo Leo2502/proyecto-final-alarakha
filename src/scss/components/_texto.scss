@@ -3,11 +3,14 @@ h1{
     text-align: center;
     font-family: AmaticSC-Regular;
     font-weight: bolder;
-    font-size: 4rem;
     background-image: url('../multimedia/images/fondo-1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    @media screen and (max-width:480px){
+        font-size: 1.8rem;
+    }
+    font-size: 4rem;
 }
 h2{
     // padding-top: 7rem;
