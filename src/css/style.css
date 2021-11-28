@@ -56,7 +56,7 @@ footer .menu-footer .mfi-contacto i:hover, footer .menu-footer .mfi-redes .fa-ma
   transition: all 500ms ease-out;
 }
 
-.productoprin img:hover, .producto-container .producto img:hover, .contactos-container .ci-ubicacion .ubicacion:hover {
+.producto-container .producto img:hover, .contactos-container .ci-ubicacion .ubicacion:hover {
   box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
@@ -404,6 +404,17 @@ footer .logoPP {
 }
 .producto-container .producto .lo-quiero a {
   color: white;
+}
+
+.productoprin {
+  overflow: hidden;
+}
+.productoprin :hover img {
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+}
+.productoprin img:hover {
+  filter: brightness(125%);
 }
 
 .foto-bio {
