@@ -1,3 +1,4 @@
+/* Edición General */
 body{
     @extend %fondo-principal;
     font-family: $fuente-principal;
@@ -12,6 +13,23 @@ body{
     }
 }
 
+/* Edición de botón de formulario */
+.buttonform {
+    color:$bg-principal;
+    margin: 0.7em;
+    padding: 0.7em;
+    border: solid 1px $bg-principal;
+    border-radius: 2em;
+    background-color: black;
+    &:hover{
+        background-color: rgb(34, 34, 34);
+        border: solid 1px $bg-principal;
+        border-radius: 1.25em;
+        @extend %transition-general;
+        color:$hover-principal;
+    }
+}
+/* Fin de edición de botón de formulario */
 
 /*Edición en body*/
 .ventaspm{

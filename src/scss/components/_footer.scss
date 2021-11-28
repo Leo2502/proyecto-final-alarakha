@@ -49,6 +49,12 @@ footer{
             @media screen and (max-width:480px){
                 display:none;
             }
+            i{
+                margin: 0.5rem;
+                &:hover{
+                    @extend %scale125;
+                }
+            }
         }
         /* Edición de botón para subir a inicio */
         .subir{
