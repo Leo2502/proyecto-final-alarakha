@@ -48,7 +48,7 @@ header .navbar .nav-item .nav-link:visited, header .navbar .nav-item .nav-link, 
   margin: 5px;
 }
 
-footer .menu-footer .mfi-redes .fa-map-marker-alt:hover, footer .menu-footer .mfi-redes .iconors:hover, .fa-cart-arrow-down:hover {
+footer .menu-footer .mfi-contacto i:hover, footer .menu-footer .mfi-redes .fa-map-marker-alt:hover, footer .menu-footer .mfi-redes .iconors:hover, .fa-cart-arrow-down:hover {
   transform: scale(1.25);
 }
 
@@ -302,6 +302,9 @@ footer .menu-footer .mfi-redes .iconors {
   footer .menu-footer .mfi-contacto {
     display: none;
   }
+}
+footer .menu-footer .mfi-contacto i {
+  margin: 0.5rem;
 }
 footer .menu-footer .subir {
   position: fixed;
