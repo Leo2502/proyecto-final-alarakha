@@ -52,7 +52,7 @@ footer .menu-footer .mfi-redes .fa-map-marker-alt:hover, footer .menu-footer .mf
   transform: scale(1.25);
 }
 
-.productoprin img:hover, .producto-container .producto .lo-quiero:hover, .producto-container .producto img:hover, footer .menu-footer .subir, footer .menu-footer .mfi-redes .iconors, header .navbar .nav-item .nav-link:active, header .navbar .nav-item, .fa-cart-arrow-down:hover, .contactos-container .ci-ubicacion .ubicacion:hover, body a:hover {
+.productoprin img:hover, .producto-container .producto .lo-quiero:hover, .producto-container .producto img:hover, footer .menu-footer .subir, footer .menu-footer .mfi-redes .iconors, header .navbar .nav-item .nav-link:active, header .navbar .nav-item, .fa-cart-arrow-down:hover, .contactos-container .ci-ubicacion .ubicacion:hover, .buttonform:hover, body a:hover {
   transition: all 500ms ease-out;
 }
 
@@ -62,6 +62,7 @@ footer .menu-footer .mfi-redes .fa-map-marker-alt:hover, footer .menu-footer .mf
   -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
 }
 
+/* Edición de texto */
 h1 {
   text-align: center;
   font-family: AmaticSC-Regular;
@@ -132,6 +133,8 @@ h3 {
   margin: 3rem;
 }
 
+/* Fin de edición de texto */
+/* Edición General */
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -139,6 +142,23 @@ body a {
   text-decoration: none;
   font-weight: normal;
 }
+/* Edición de botón de formulario */
+.buttonform {
+  color: white;
+  margin: 0.7em;
+  padding: 0.7em;
+  border: solid 1px white;
+  border-radius: 2em;
+  background-color: black;
+}
+.buttonform:hover {
+  background-color: #222222;
+  border: solid 1px white;
+  border-radius: 1.25em;
+  color: #f891a3;
+}
+
+/* Fin de edición de botón de formulario */
 /*Edición en body*/
 .ventaspm {
   display: flex;
