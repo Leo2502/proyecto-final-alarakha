@@ -53,6 +53,7 @@ footer{
                 margin: 0.5rem;
                 &:hover{
                     @extend %scale125;
+                    @extend %transition-general;
                 }
             }
         }

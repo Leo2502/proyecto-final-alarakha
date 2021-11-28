@@ -16,11 +16,12 @@ body{
 /* Edición de botón de formulario */
 .buttonform {
     color:$bg-principal;
-    margin: 0.7em;
-    padding: 0.7em;
+    margin: 1em;
+    padding: 1em;
     border: solid 1px $bg-principal;
     border-radius: 2em;
     background-color: black;
+    font-size: 0.8em;
     &:hover{
         background-color: rgb(34, 34, 34);
         border: solid 1px $bg-principal;

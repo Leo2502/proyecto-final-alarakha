@@ -52,7 +52,7 @@ footer .menu-footer .mfi-contacto i:hover, footer .menu-footer .mfi-redes .fa-ma
   transform: scale(1.25);
 }
 
-.productoprin img:hover, .producto-container .producto .lo-quiero:hover, .producto-container .producto img:hover, footer .menu-footer .subir, footer .menu-footer .mfi-redes .iconors, header .navbar .nav-item .nav-link:active, header .navbar .nav-item, .fa-cart-arrow-down:hover, .contactos-container .ci-ubicacion .ubicacion:hover, .buttonform:hover, body a:hover {
+.productoprin img:hover, .producto-container .producto .lo-quiero:hover, .producto-container .producto img:hover, footer .menu-footer .subir, footer .menu-footer .mfi-contacto i:hover, footer .menu-footer .mfi-redes .iconors, header .navbar .nav-item .nav-link:active, header .navbar .nav-item, .fa-cart-arrow-down:hover, .contactos-container .ci-ubicacion .ubicacion:hover, .buttonform:hover, body a:hover {
   transition: all 500ms ease-out;
 }
 
@@ -145,11 +145,12 @@ body a {
 /* Edición de botón de formulario */
 .buttonform {
   color: white;
-  margin: 0.7em;
-  padding: 0.7em;
+  margin: 1em;
+  padding: 1em;
   border: solid 1px white;
   border-radius: 2em;
   background-color: black;
+  font-size: 0.8em;
 }
 .buttonform:hover {
   background-color: #222222;
@@ -396,6 +397,7 @@ footer .logoPP {
   border: solid 1px white;
   border-radius: 2em;
   background-color: black;
+  font-size: 0.8em;
 }
 .producto-container .producto .lo-quiero:hover {
   background-color: #222222;
