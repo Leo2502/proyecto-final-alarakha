@@ -72,6 +72,7 @@ h1 {
   background-attachment: fixed;
   background-size: cover;
   font-size: 4rem;
+  color: black !important;
 }
 @media screen and (max-width: 480px) {
   h1 {
@@ -89,6 +90,7 @@ h2 {
   border-radius: 5px;
   display: inline-block;
   width: 100%;
+  color: black !important;
 }
 
 h3 {
@@ -405,7 +407,7 @@ footer .logoPP {
 .producto-container .producto .lo-quiero {
   margin: 1em;
   padding: 1em;
-  border: solid 1px white;
+  border: solid 1px white !important;
   border-radius: 2em;
   background-color: black;
   font-size: 0.8em;
