@@ -1,7 +1,7 @@
 /* Edición de footer */
 footer{
     margin-top: 2rem;
-    padding: 0.5em 0 0.5em 0.5em;
+    @extend %padding-hf;
     @extend %fondo-hf;
     font-size: 1rem;
     .menu-footer{
@@ -16,15 +16,14 @@ footer{
             overflow: hidden;
             font-weight: bolder;
             .titulofoo{
-                margin-top: 0.8rem;
-                margin-bottom: 0.8rem;
+                margin: 0.8em 0;
                 font-weight: bolder;
                 text-transform:uppercase;
                 text-align: left;
-                font-size: 1.5rem;
+                font-size: 1.5em;
             }
             ul{
-                margin: 0 0 1.25rem 1.25rem;
+                margin: 0 0 1.25em 1.25em;
                 list-style: none;
                 li {
                     margin: 0.6em;
@@ -50,19 +49,20 @@ footer{
                 display:none;
             }
             i{
-                margin: 0.5rem;
+                margin: 0.5em;
                 &:hover{
                     @extend %scale125;
                     @extend %transition-general;
                 }
             }
         }
-        /* Edición de botón para subir a inicio */
+        // Edición de botón para subir a inicio
         .subir{
+            /* Edición de botón para subir a inicio */
             position: fixed;
             right: 1%;
             bottom: 1%;
-            padding: 1rem;
+            padding: 1em;
             @extend %hover-general;
             @extend %transition-general;
             z-index: 2;
@@ -71,9 +71,10 @@ footer{
             }
             .fa-arrow-circle-up{
                 width: 30%;
+            /* Fin de edición de botón para subir a inicio */
             }
         }
-        /* Fin de edición de botón para subir a inicio */
+        // Fin de edición de botón para subir a inicio
     }
     .logoPP{
         @media screen and (max-width:480px){

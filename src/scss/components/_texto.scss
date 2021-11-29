@@ -3,45 +3,31 @@ h1{
     text-align: center;
     font-family: AmaticSC-Regular;
     font-weight: bolder;
-    background-image: url('../multimedia/images/general/fondo-1.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    @extend %fondo-alarakha;
     @media screen and (max-width:480px){
-        font-size: 3rem;
+        font-size: 3em;
     }
-    font-size: 4rem;
+    font-size: 4em;
     color:$color-fuente-principal !important;
 }
 h2{
-    margin: 2rem 0 2rem 0;
-    text-align: center;
-    background-image: url('../multimedia/images/general/fondo-1.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    border-radius: 5px;
-    display: inline-block;
-    width: 100%;
+    @extend %formato-texto-general;
+    @extend %fondo-alarakha;
+    border-radius: 0.3em;
     color:$color-fuente-principal !important;
 }
 h3{
-    margin: 2rem 2rem 2rem 2rem;
-    text-align: center;
+    @extend %formato-texto-general;
 }
 .nstext{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 .presentacion{
-    text-align: center;
-    color:rgb(255, 168, 183);
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
-    -webkit-text-stroke: black 0.6px;
+    @extend %formato-texto-general;
+    color:$hover-principal;
+    font-size: 1.5em;
     @media screen and (max-width:480px){
         width: 90%;
     }
@@ -49,15 +35,15 @@ h3{
 }
 .texto-comun{
     text-align:justify;
+    margin: 2em auto;
     font-weight:unset;
-    margin: 2rem auto 2rem auto;
     width: 75%;
 }
 .copyright{
     font-size: 0.75em;
 }
 .medios-item{
-    margin: 3rem;
+    margin: 3em;
 }
 
 /* Fin de edición de texto */
