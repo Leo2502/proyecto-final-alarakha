@@ -29,6 +29,7 @@
         align-items: center;
         margin: 0.8em;
         padding: 0.5em;
+        overflow: hidden;
         @media screen and (max-width:480px){
             margin-left: auto;
             width: 100%;
@@ -36,10 +37,17 @@
         width: 20%;
         img{
             width: 100%;
+            @media screen and (max-width:480px){
+                height: auto;
+                filter:none;
+            }
+            // height: 45vh;
             @extend %margin5;
+            filter: grayscale(60%);
             &:hover{
                 @extend %box-shadow-negra;
                 @extend %transition-general;
+                filter: none;
             }
         }
         p{

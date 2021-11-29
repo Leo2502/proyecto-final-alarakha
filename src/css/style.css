@@ -373,6 +373,7 @@ footer .logoPP {
   align-items: center;
   margin: 0.8em;
   padding: 0.5em;
+  overflow: hidden;
   width: 20%;
 }
 @media screen and (max-width: 480px) {
@@ -383,6 +384,16 @@ footer .logoPP {
 }
 .producto-container .producto img {
   width: 100%;
+  filter: grayscale(60%);
+}
+@media screen and (max-width: 480px) {
+  .producto-container .producto img {
+    height: auto;
+    filter: none;
+  }
+}
+.producto-container .producto img:hover {
+  filter: none;
 }
 .producto-container .producto p {
   text-transform: uppercase;
