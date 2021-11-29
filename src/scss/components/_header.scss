@@ -3,7 +3,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 3;
-    padding: 0.5em 0 0.5em 0.5em;
+    @extend %padding-hf;
     @extend %fondo-hf;
     .bg-leo{
         @extend %fondo-hf;
@@ -21,10 +21,10 @@ header{
             }
         }
             li{
-                margin:0.9rem;
+                margin:0.9em;
                 .dropdown-menu{
                     @extend %fondo-hf;
-                    border-radius: 5px;
+                    border-radius: 0.4em;
                     border-top: none;
                     .dropdown-item:hover{
                         @extend %hover-general;

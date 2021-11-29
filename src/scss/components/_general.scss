@@ -35,7 +35,7 @@ body{
 /*Edición en body*/
 .ventaspm{
     @include flexbox(flex, row nowrap, center);
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.8em;
     @extend %fondo-principal;
 }
 .contactos-container{
@@ -48,7 +48,7 @@ body{
             display: flex;
             flex-flow: column nowrap;
             form{
-                margin: 0.8rem;
+                margin: 0.8em;
             }
             .inputlabel{
                 display: flex;
