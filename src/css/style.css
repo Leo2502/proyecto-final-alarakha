@@ -15,28 +15,6 @@
   src: url("../multimedia/web-fonts/AmaticSC-Regular.ttf") format("truetype");
 }
 /* Fin de sección de fuentes */
-/* Animaciones */
-@keyframes Saltar {
-  0% {
-    transform: translateY(-5px);
-    -webkit-transform: translateY(-5px);
-    -moz-transform: translateY(-5px);
-    -o-transform: translateY(-5px);
-  }
-  50% {
-    transform: translateY(-10px);
-    -webkit-transform: translateY(-10px);
-    -moz-transform: translateY(-10px);
-    -o-transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(10px);
-    -webkit-transform: translateY(-10px);
-    -moz-transform: translateY(-10px);
-    -o-transform: translateY(-10px);
-  }
-}
-/* Fin de animaciones */
 /* Mapas */
 /* Fin de Mapas */
 .ventaspm, body {
@@ -239,9 +217,6 @@ header .navbar .logoa {
   header .navbar .logoa {
     width: 40%;
   }
-}
-header .navbar .logoa:active {
-  animation: Saltar 1s;
 }
 header .navbar li {
   margin: 0.9em;
