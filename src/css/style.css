@@ -37,6 +37,8 @@
   }
 }
 /* Fin de animaciones */
+/* Mapas */
+/* Fin de Mapas */
 .ventaspm, body {
   background-color: white;
 }
@@ -53,7 +55,7 @@ header .navbar .nav-item .nav-link:visited, header .navbar .nav-item .nav-link, 
   color: black;
 }
 
-.producto-container .producto .lo-quiero a, .producto-container .producto p, .producto-container .producto img {
+.producto-container .producto .sin-stock a, .producto-container .producto .lo-quiero a, .producto-container .producto p, .producto-container .producto img {
   margin: 5px;
 }
 
@@ -64,7 +66,7 @@ footer .menu-footer .mfi-contacto i:hover, footer .menu-footer .mfi-redes .fa-ma
   -o-transform: scale(1.25);
 }
 
-.productoprin img:hover, .producto-container .producto .lo-quiero:hover, .producto-container .producto img:hover, footer .menu-footer .subir, footer .menu-footer .mfi-contacto i:hover, footer .menu-footer .mfi-redes .iconors, header .navbar .nav-item .nav-link:active, header .navbar .nav-item, .fa-cart-arrow-down:hover, .contactos-container .ci-ubicacion .ubicacion:hover, .buttonform:hover, body a:hover {
+.productoprin img:hover, .producto-container .producto .sin-stock:hover, .producto-container .producto .lo-quiero:hover, .producto-container .producto img:hover, footer .menu-footer .subir, footer .menu-footer .mfi-contacto i:hover, footer .menu-footer .mfi-redes .iconors, header .navbar .nav-item .nav-link:active, header .navbar .nav-item, .fa-cart-arrow-down:hover, .contactos-container .ci-ubicacion .ubicacion:hover, .buttonform:hover, body a:hover {
   transition: all 500ms ease-out;
 }
 
@@ -422,6 +424,22 @@ footer .logoPP {
   border-radius: 1.25em;
 }
 .producto-container .producto .lo-quiero a {
+  color: white;
+}
+.producto-container .producto .sin-stock {
+  margin: 1em;
+  padding: 1em;
+  color: white;
+  border: solid 1px white !important;
+  background-color: #3f3f3f;
+  font-size: 0.8em;
+}
+.producto-container .producto .sin-stock:hover {
+  background-color: #4b4b4b;
+  border: solid 1px white;
+  border-radius: 1.25em;
+}
+.producto-container .producto .sin-stock a {
   color: white;
 }
 

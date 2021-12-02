@@ -62,11 +62,29 @@
             margin: 1em;
             padding: 1em;
             border: solid 1px white !important;
-            border-radius: 2em;
-            background-color: black;
-            font-size: 0.8em;
+            border-radius: map-get($stock,br-stock);
+            background-color: map-get($stock,bg-stock);
+            font-size: map-get($stock,font-stock);
             &:hover{
-                background-color: rgb(34, 34, 34);
+                background-color: map-get($hover-stock,bg-hstock);
+                border: solid 1px white;
+                border-radius: 1.25em;
+                @extend %transition-general;
+            }
+            a{
+                @extend %margin5;
+                color: white;
+            }
+        }
+        .sin-stock{
+            margin: 1em;
+            padding: 1em;
+            color:white;
+            border: solid 1px white !important;
+            background-color: map-get($sin-stock,bg-sstock);
+            font-size: map-get($sin-stock,font-sstock);
+            &:hover{
+                background-color:map-get($hover-sin-stock,bg-hsstock);
                 border: solid 1px white;
                 border-radius: 1.25em;
                 @extend %transition-general;
