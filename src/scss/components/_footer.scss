@@ -4,18 +4,18 @@ footer{
     @extend %padding-hf;
     @extend %fondo-hf;
     font-size: 1rem;
-    .menu-footer{
+    .menu__footer{
         @media screen and (max-width:480px){
             @include flexbox(flex, column wrap, space-around);
         }
         @include flexbox(flex, row nowrap, space-between);
-        .menu-footer-item{
+        .menu__footer__item{
             @include flexbox(flex, column wrap, flex-start);
             align-content: space-between;
             flex:1;
             overflow: hidden;
             font-weight: bolder;
-            .titulofoo{
+            .menu__footer__item__title{
                 margin: 0.8em 0;
                 font-weight: bolder;
                 text-transform:uppercase;
@@ -30,10 +30,10 @@ footer{
                 }
             }
         }
-        .mfi-redes{
+        .menu__footer__item--redes{
             justify-content: space-between;
             align-items:center;
-            .iconors{
+            .menu__footer__item__iconos{
                 padding: 0.6em;
                 @extend %transition-general;
                 &:hover{
@@ -44,7 +44,7 @@ footer{
                 @extend %scale125;
             }
         }
-        .mfi-contacto{
+        .menu__footer__item--contacto{
             @media screen and (max-width:480px){
                 display:none;
             }
@@ -57,7 +57,7 @@ footer{
             }
         }
         // Edición de botón para subir a inicio
-        .subir{
+        .menu__footer__item--flecha-header{
             /* Edición de botón para subir a inicio */
             position: fixed;
             right: 1%;
@@ -76,7 +76,7 @@ footer{
         }
         // Fin de edición de botón para subir a inicio
     }
-    .logoPP{
+    .footer__logo{
         @media screen and (max-width:480px){
             width: 40%;
             margin-top:1em;

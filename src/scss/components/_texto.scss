@@ -26,8 +26,8 @@ h3{
 }
 .presentacion{
     @extend %formato-texto-general;
-    color:$hover-principal;
-    font-size: 1.5em;
+    color:$color-fuente-principal;
+    font-size: 1.25em;
     @media screen and (max-width:480px){
         width: 90%;
     }
@@ -39,7 +39,7 @@ h3{
     font-weight:unset;
     width: 75%;
 }
-.copyright{
+.footer__copyrigth{
     font-size: 0.75em;
 }
 .medios-item{

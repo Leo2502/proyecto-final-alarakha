@@ -46,7 +46,7 @@
     <header id="Header">
       <nav class="navbar navbar-expand-lg navbar-light bg-leo">
         <div class="container-fluid d-flex justify-content-between">
-          <a class="animate__animated animate__bounce navbar-brand logoa" href="../../index.html"><img src="../multimedia/images/general/logo.png" alt="logo-Alarakha" class="w-100"></a>
+          <a class="animate__animated animate__bounce navbar-brand navbar__logo" href="../../index.html"><img src="../multimedia/images/general/logo.png" alt="logo-Alarakha" class="w-100"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -97,9 +97,9 @@
 
 
     <!-- Contactos -->
-  <section class="contactos-container">
+  <section class="contactos__container">
     <!-- Sección de contacto directo -->
-    <div class="contactos-item">
+    <div class="contactos__container__item">
     <h3>Contactanos!</h3>
     <ul>
         <!-- WhatsApp -->
@@ -113,28 +113,28 @@
 
 
     <!-- Sección de Ubicación -->
-    <div class="contactos-item ci-ubicacion">
+    <div class="contactos__container__item contactos__container__item--ubicacion">
     <h3>Visitanos!</h3>
-          <iframe class="w-75 ubicacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52540.41689444957!2d-58.5987020377721!3d-34.60982394707292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8698cab7fa3%3A0xc4d83fe138c75b6f!2sCaseros%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1635739633790!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <iframe class="w-75 contactos__container__item__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52540.41689444957!2d-58.5987020377721!3d-34.60982394707292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8698cab7fa3%3A0xc4d83fe138c75b6f!2sCaseros%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1635739633790!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
     <!-- Fin de sección de Ubicación -->
 
     
     <!-- Sección de Contacto -->
-    <div class="contactos-item">
+    <div class="contactos__container__item">
     <h3>Comentanos!</h3>
-      <div class="formulario">
+      <div class="contactos__container__item__form">
       <form>
         <label for="E-mail">E-mail:</label>	
-        <input class="inputlabel" type="text" name="E-mail" />
+        <input class="contactos__container__item__form__input" type="text" name="E-mail" />
       </form>
       <form>
         <label for="Comentario">Comentarios:</label>	
-        <input class="inputlabel" type="text" name="Comentario" />
+        <input class="contactos__container__item__form__input" type="text" name="Comentario" />
       </form>
       <form>
-        <input class="buttonform" type="submit" value="Enviar"/>
-        <input class="buttonform" type="reset" value="Borrar"/>
+        <input class="contactos__container__item__form__button" type="submit" value="Enviar"/>
+        <input class="contactos__container__item__form__button" type="reset" value="Borrar"/>
       </form>
       </div>
     </div>
@@ -145,10 +145,10 @@
 
     <!-- Inicio de footer -->
     <footer>
-      <div class="menu-footer">
+      <div class="menu__footer">
             <!--Sección sobre la tienda-->
-            <nav class="menu-footer-item mfi-tienda">
-            <h6 class="titulofoo fs-5">Tienda</h4>
+            <nav class="menu__footer__item">
+            <h6 class="menu__footer__item__title fs-5">Tienda</h4>
             <ul class="m-0 mb-4 p-0">
                 <li><a href="#">Contacto</a></li>
                 <li><a href="tienda.html#medios">Medios de Pago</a></li>
@@ -160,8 +160,8 @@
 
 
             <!--Sección Sobre Nosotros-->
-            <nav class="menu-footer-item">
-            <h6 class="titulofoo fs-5">Sobre Nosotros</h4>
+            <nav class="menu__footer__item">
+            <h6 class="menu__footer__item__title fs-5">Sobre Nosotros</h4>
             <ul class="m-0 mb-4 p-0">
                 <li><a href="nosotros.html#Alarakha">Nuestra Historia</a></li>
                 <li><a href="nosotros.html#sobreMi">Bio</a></li>
@@ -172,14 +172,14 @@
 
             
             <!--Sección Redes Sociales y contacto-->
-            <nav class="menu-footer-item mfi-redes">
+            <nav class="menu__footer__item menu__footer__item--redes">
             <div>
             <!--Botón de Instagram-->
-            <a class="display-5 mb-0" href="https://www.instagram.com/alarakha.neceseres/" target="_blank"><i class="fab fa-instagram iconors"></i></a>
+            <a class="display-5 mb-0" href="https://www.instagram.com/alarakha.neceseres/" target="_blank"><i class="fab fa-instagram menu__footer__item__iconos"></i></a>
             <!--Botón de Facebook-->
-            <a class="display-5 mb-0" href="https://www.facebook.com/alarakhaneceseres" target="_blank"><i class="fab fa-facebook iconors"></i></a>
+            <a class="display-5 mb-0" href="https://www.facebook.com/alarakhaneceseres" target="_blank"><i class="fab fa-facebook menu__footer__item__iconos"></i></a>
             </div>
-            <nav class="mfi-contacto">
+            <nav class="menu__footer__item--contacto">
               <!-- Botón de Enviar Correo -->
               <a href="mailto:alarakha.neceseres@hotmail.com"><i class="fas fa-at"></i></a>
               <!-- Botón de Ubicación -->
@@ -192,11 +192,11 @@
 
 
             <!-- Botón subir a inicio -->
-            <a class="subir" data-aos="fade-up" href="#"><i class="fas fa-arrow-circle-up fs-2"></i></a>
+            <a class="menu__footer__item--flecha-header" data-aos="fade-up" href="#"><i class="fas fa-arrow-circle-up fs-2"></i></a>
       </div>
       <nav>
-        <img class="logoPP" src="../multimedia/images/general/logo.png" alt="logo-Alarakha">
-        <p class="copyright mb-0">Copyright Alarakha - 2021. Todos los derechos reservados</p>
+        <img class="footer__logo" src="../multimedia/images/general/logo.png" alt="logo-Alarakha">
+        <p class="footer__copyrigth mb-0">Copyright Alarakha - 2021. Todos los derechos reservados</p>
       </nav>
             <!-- Fin de botón para subir a inicio -->
     </footer>

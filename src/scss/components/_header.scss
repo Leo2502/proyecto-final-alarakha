@@ -11,7 +11,7 @@ header{
     .navbar{
         font-family: $fuente-principal;
         font-weight: bolder;
-        .logoa{
+        .navbar__logo{
             @media screen and (max-width:480px){
                 width: 40%;
             }
