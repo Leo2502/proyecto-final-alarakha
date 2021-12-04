@@ -1,4 +1,15 @@
 /* Edición de Multimedia */
+.portada-desktop{
+    height: 100vh;
+    .portada-desktop__fondo{
+        height: 100%;
+        background-image: url('../multimedia/images/general/portada-d.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
 .atencion{
     @include flexbox(flex, column wrap, center);
     align-items: center;

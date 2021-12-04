@@ -317,6 +317,18 @@ footer .footer__logo {
 
 /* Fin de edición de footer */
 /* Edición de Multimedia */
+.portada-desktop {
+  height: 100vh;
+}
+.portada-desktop .portada-desktop__fondo {
+  height: 100%;
+  background-image: url("../multimedia/images/general/portada-d.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 .atencion {
   display: flex;
   flex-flow: column wrap;
