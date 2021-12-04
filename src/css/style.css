@@ -152,6 +152,7 @@ body a {
   flex-flow: column wrap;
   justify-content: flex-start;
   align-items: center;
+  margin: 1em;
 }
 .contactos__container .contactos__container__item .contactos__container__item__form {
   display: flex;

@@ -29,6 +29,7 @@ body{
     .contactos__container__item{
         @include flexbox(flex, column wrap, flex-start);
         align-items: center;
+        margin: 1em;
         .contactos__container__item__form{
             display: flex;
             flex-flow: column nowrap;
