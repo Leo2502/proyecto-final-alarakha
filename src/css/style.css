@@ -220,7 +220,7 @@ header .navbar .navbar__logo {
 }
 @media screen and (min-width: 481px) and (max-width: 960px) {
   header .navbar .navbar__logo {
-    width: 25%;
+    width: 22%;
   }
 }
 header .navbar li {
