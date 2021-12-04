@@ -255,6 +255,7 @@ footer .menu__footer .menu__footer__item {
   justify-content: flex-start;
   align-content: space-between;
   flex: 1;
+  margin: 0.75em;
   overflow: hidden;
   font-weight: bolder;
 }
@@ -354,6 +355,7 @@ footer .footer__logo {
   flex-direction: column;
   align-items: center;
   margin: 0.1em auto 0.5em auto;
+  padding: 0.5em;
   overflow: hidden;
   width: 23%;
 }

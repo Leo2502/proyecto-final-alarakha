@@ -13,6 +13,7 @@ footer{
             @include flexbox(flex, column wrap, flex-start);
             align-content: space-between;
             flex:1;
+            margin: 0.75em;
             overflow: hidden;
             font-weight: bolder;
             .menu__footer__item__title{
