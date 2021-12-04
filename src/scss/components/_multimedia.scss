@@ -110,6 +110,9 @@
     @media screen and (max-width:480px){
         width: 50%;
     }
+    @media screen and (min-width:481px) and (max-width:960px){
+        width: 30%;
+    }
     width: 25%;
 }
 /* Fin de edición de productos */

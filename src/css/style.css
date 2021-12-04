@@ -217,6 +217,11 @@ header .navbar .navbar__logo {
     width: 40%;
   }
 }
+@media screen and (min-width: 481px) and (max-width: 960px) {
+  header .navbar .navbar__logo {
+    width: 25%;
+  }
+}
 header .navbar li {
   margin: 0.9em;
 }
@@ -434,6 +439,11 @@ footer .footer__logo {
 @media screen and (max-width: 480px) {
   .foto-bio {
     width: 50%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 960px) {
+  .foto-bio {
+    width: 30%;
   }
 }
 
