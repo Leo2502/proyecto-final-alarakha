@@ -18,6 +18,7 @@ h2{
 }
 h3{
     @extend %formato-texto-general;
+    padding:0.2em;
 }
 .nstext{
     display: flex;

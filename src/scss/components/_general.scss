@@ -25,11 +25,30 @@ body{
 }
 .contactos__container{
     @include flexbox(flex, row wrap, center);
-    flex:1;
+    @media screen and (max-width:480px){
+        @include flexbox(flex, column wrap, space-around);
+    }
     .contactos__container__item{
         @include flexbox(flex, column wrap, flex-start);
+        @media screen and (max-width:480px){
+            width: 100%;
+        }
+        width: 30%;
         align-items: center;
         margin: 1em;
+        h3{
+            background: linear-gradient(black 0 0) top /100% 5% no-repeat,
+            linear-gradient(black 0 0) bottom /100% 5% no-repeat,
+            linear-gradient(black 0 0) left /var(--d,0%) 100% no-repeat;
+            @extend %transition-general;
+        }
+        &:hover{
+            h3{
+            color:white;
+            --d:100%;
+            @extend %transition-general;
+            }
+        }
         .contactos__container__item__form{
             display: flex;
             flex-flow: column nowrap;

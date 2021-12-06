@@ -37,6 +37,8 @@ header{
                 @extend %transition-general;
                 .nav-link{
                     @extend %link-general;
+                    background: linear-gradient(currentColor 0 0) bottom /var(--d, 0) 2px no-repeat;
+                    @extend %transition-general;
                     &:visited{
                         @extend %link-general;
                     }
@@ -47,6 +49,7 @@ header{
                     }
                     &:hover{
                         @extend %hover-general;
+                        --d:100%;
                     }
                 }
             } 

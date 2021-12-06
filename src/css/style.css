@@ -44,7 +44,7 @@ footer .menu__footer .menu__footer__item--contacto i:hover, footer .menu__footer
   -o-transform: scale(1.25);
 }
 
-.container-fluid__row__producto img:hover, .productos__container .productos__container__item .productos__container__item__cartel:hover, .productos__container .productos__container__item .productos__container__item__button-general:hover, .productos__container .productos__container__item img:hover, footer .menu__footer .menu__footer__item--flecha-header, footer .menu__footer .menu__footer__item--contacto i:hover, footer .menu__footer .menu__footer__item--redes .menu__footer__item__iconos, header .navbar .nav-item .nav-link:active, header .navbar .nav-item, .fa-cart-arrow-down:hover, .contactos__container .contactos__container__item--ubicacion .contactos__container__item__map:hover, .contactos__container .contactos__container__item .contactos__container__item__form form .contactos__container__item__form__button:hover, body a:hover {
+.container-fluid__row__producto img:hover, .productos__container .productos__container__item .productos__container__item__cartel:hover, .productos__container .productos__container__item .productos__container__item__button-general:hover, .productos__container .productos__container__item img:hover, footer .menu__footer .menu__footer__item--flecha-header, footer .menu__footer .menu__footer__item--contacto i:hover, footer .menu__footer .menu__footer__item--redes .menu__footer__item__iconos, header .navbar .nav-item .nav-link:active, header .navbar .nav-item .nav-link, header .navbar .nav-item, .fa-cart-arrow-down:hover, .contactos__container .contactos__container__item--ubicacion .contactos__container__item__map:hover, .contactos__container .contactos__container__item .contactos__container__item__form form .contactos__container__item__form__button:hover, .contactos__container .contactos__container__item:hover h3, .contactos__container .contactos__container__item h3, body a:hover {
   transition: all 500ms ease-out;
 }
 
@@ -88,6 +88,10 @@ h1 {
 h2 {
   border-radius: 0.3em;
   color: black !important;
+}
+
+h3 {
+  padding: 0.2em;
 }
 
 .nstext {
@@ -145,14 +149,33 @@ body a {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  flex: 1;
+}
+@media screen and (max-width: 480px) {
+  .contactos__container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+  }
 }
 .contactos__container .contactos__container__item {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
+  width: 30%;
   align-items: center;
   margin: 1em;
+}
+@media screen and (max-width: 480px) {
+  .contactos__container .contactos__container__item {
+    width: 100%;
+  }
+}
+.contactos__container .contactos__container__item h3 {
+  background: linear-gradient(black 0 0) top/100% 5% no-repeat, linear-gradient(black 0 0) bottom/100% 5% no-repeat, linear-gradient(black 0 0) left/var(--d, 0%) 100% no-repeat;
+}
+.contactos__container .contactos__container__item:hover h3 {
+  color: white;
+  --d:100%;
 }
 .contactos__container .contactos__container__item .contactos__container__item__form {
   display: flex;
@@ -234,10 +257,17 @@ header .navbar li .dropdown-menu {
 header .navbar .nav-item {
   text-decoration: none;
 }
+header .navbar .nav-item .nav-link {
+  background: linear-gradient(currentColor 0 0) bottom/var(--d, 0) 2px no-repeat;
+}
 header .navbar .nav-item .nav-link:active {
   color: white;
   background-color: black;
 }
+header .navbar .nav-item .nav-link:hover {
+  --d:100%;
+}
+
 /* Fin de Edición de Header */
 /* Edición de footer */
 footer {
