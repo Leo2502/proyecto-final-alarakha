@@ -11,6 +11,9 @@ header{
     .navbar{
         font-family: $fuente-principal;
         font-weight: bolder;
+        @media screen and (max-width:960px){
+            height: auto;
+        }
         height: 12vh;
         .navbar__logo{
             @media screen and (max-width:480px){

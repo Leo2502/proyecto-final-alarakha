@@ -148,7 +148,8 @@ body a {
 .contactos__container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-around;
+  flex: 1;
 }
 @media screen and (max-width: 480px) {
   .contactos__container {
@@ -161,14 +162,7 @@ body a {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
-  width: 30%;
   align-items: center;
-  margin: 1em;
-}
-@media screen and (max-width: 480px) {
-  .contactos__container .contactos__container__item {
-    width: 100%;
-  }
 }
 .contactos__container .contactos__container__item h3 {
   padding: 0.25em 0.5em;
@@ -208,7 +202,7 @@ body a {
   overflow: hidden;
 }
 .contactos__container .contactos__container__item--ubicacion {
-  flex-grow: 2;
+  flex-grow: 0.75;
 }
 .contactos__container .contactos__container__item--ubicacion .contactos__container__item__map:hover {
   transform: scale(1.1);
@@ -234,6 +228,11 @@ header .navbar {
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
   height: 12vh;
+}
+@media screen and (max-width: 960px) {
+  header .navbar {
+    height: auto;
+  }
 }
 header .navbar .navbar__logo {
   width: 13%;

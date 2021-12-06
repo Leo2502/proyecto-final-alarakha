@@ -24,18 +24,14 @@ body{
     @extend %fondo-principal;
 }
 .contactos__container{
-    @include flexbox(flex, row wrap, center);
+    @include flexbox(flex, row wrap, space-around);
+    flex:1;
     @media screen and (max-width:480px){
         @include flexbox(flex, column wrap, space-around);
     }
     .contactos__container__item{
         @include flexbox(flex, column wrap, flex-start);
-        @media screen and (max-width:480px){
-            width: 100%;
-        }
-        width: 30%;
         align-items: center;
-        margin: 1em;
         h3{
             padding: 0.25em 0.5em;
             background: linear-gradient(black 0 0) top /100% 5% no-repeat,
@@ -82,7 +78,7 @@ body{
         }
     }
     .contactos__container__item--ubicacion{
-        flex-grow: calc(2);
+    flex-grow: calc(0.75);
         .contactos__container__item__map:hover{
             transform: scale(1.10);
             @extend %box-shadow-negra;
