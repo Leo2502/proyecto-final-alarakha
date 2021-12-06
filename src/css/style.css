@@ -209,6 +209,7 @@ header {
 header .navbar {
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
+  height: 12vh;
 }
 header .navbar .navbar__logo {
   width: 13%;
