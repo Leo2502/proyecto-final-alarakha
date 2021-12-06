@@ -33,7 +33,7 @@ header .navbar .nav-item .nav-link:visited, header .navbar .nav-item .nav-link, 
   color: black;
 }
 
-.productos__container .productos__container__item .productos__container__item__cartel a, .productos__container .productos__container__item .productos__container__item__button-general a, .productos__container .productos__container__item p, .productos__container .productos__container__item img {
+.productos__container .productos__container__item--sin-stock .productos__container__item__button-general a, .productos__container .productos__container__item .productos__container__item__button-general a, .productos__container .productos__container__item p, .productos__container .productos__container__item img {
   margin: 5px;
 }
 
@@ -44,7 +44,7 @@ footer .menu__footer .menu__footer__item--contacto i:hover, footer .menu__footer
   -o-transform: scale(1.25);
 }
 
-.container-fluid__row__producto img:hover, .productos__container .productos__container__item .productos__container__item__cartel:hover, .productos__container .productos__container__item .productos__container__item__button-general:hover, .productos__container .productos__container__item img:hover, footer .menu__footer .menu__footer__item--flecha-header, footer .menu__footer .menu__footer__item--contacto i:hover, footer .menu__footer .menu__footer__item--redes .menu__footer__item__iconos, header .navbar .nav-item .nav-link:active, header .navbar .nav-item .nav-link, header .navbar .nav-item, .fa-cart-arrow-down:hover, .contactos__container .contactos__container__item--ubicacion .contactos__container__item__map:hover, .contactos__container .contactos__container__item .contactos__container__item__form form .contactos__container__item__form__button:hover, .contactos__container .contactos__container__item:hover h3, .contactos__container .contactos__container__item h3, body a:hover {
+.container-fluid__row__producto img:hover, .productos__container .productos__container__item--sin-stock .productos__container__item__button-general:hover, .productos__container .productos__container__item .productos__container__item__button-general:hover, .productos__container .productos__container__item img:hover, footer .menu__footer .menu__footer__item--flecha-header, footer .menu__footer .menu__footer__item--contacto i:hover, footer .menu__footer .menu__footer__item--redes .menu__footer__item__iconos, header .navbar .nav-item .nav-link:active, header .navbar .nav-item .nav-link, header .navbar .nav-item, .fa-cart-arrow-down:hover, .contactos__container .contactos__container__item--ubicacion .contactos__container__item__map:hover, .contactos__container .contactos__container__item .contactos__container__item__form form .contactos__container__item__form__button:hover, .contactos__container .contactos__container__item:hover h3, .contactos__container .contactos__container__item h3, body a:hover {
   transition: all 500ms ease-out;
 }
 
@@ -171,6 +171,7 @@ body a {
   }
 }
 .contactos__container .contactos__container__item h3 {
+  padding: 0.25em 0.5em;
   background: linear-gradient(black 0 0) top/100% 5% no-repeat, linear-gradient(black 0 0) bottom/100% 5% no-repeat, linear-gradient(black 0 0) left/var(--d, 0%) 100% no-repeat;
 }
 .contactos__container .contactos__container__item:hover h3 {
@@ -449,20 +450,27 @@ footer .footer__logo {
 .productos__container .productos__container__item .productos__container__item__button-general a {
   color: white;
 }
-.productos__container .productos__container__item .productos__container__item__cartel {
+.productos__container .productos__container__item--sin-stock img:hover {
+  filter: grayscale(60%);
+}
+.productos__container .productos__container__item--sin-stock .productos__container__item__precio {
+  display: none;
+}
+.productos__container .productos__container__item--sin-stock .productos__container__item__button-general {
   margin: 1em;
+  margin-top: 3.5em;
   padding: 1em;
   color: white;
   border: solid 1px white !important;
   background-color: #3f3f3f;
   font-size: 0.8em;
 }
-.productos__container .productos__container__item .productos__container__item__cartel:hover {
+.productos__container .productos__container__item--sin-stock .productos__container__item__button-general:hover {
   background-color: #4b4b4b;
   border: solid 1px white;
   border-radius: 1.25em;
 }
-.productos__container .productos__container__item .productos__container__item__cartel a {
+.productos__container .productos__container__item--sin-stock .productos__container__item__button-general a {
   color: white;
 }
 

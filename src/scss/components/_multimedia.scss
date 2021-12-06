@@ -86,8 +86,18 @@
                 color: white;
             }
         }
-        .productos__container__item__cartel{
+        
+        }
+    .productos__container__item--sin-stock{
+        img:hover{
+            filter: grayscale(60%);
+        }
+        .productos__container__item__precio{
+            display: none;
+        }
+        .productos__container__item__button-general{
             margin: 1em;
+            margin-top: 3.5em;
             padding: 1em;
             color:white;
             border: solid 1px white !important;
@@ -103,7 +113,7 @@
                 @extend %margin5;
                 color: white;
             }
-        }
+    }
     }
 }
 .container-fluid__row__producto{
